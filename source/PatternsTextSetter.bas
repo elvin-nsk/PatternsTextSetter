@@ -36,7 +36,7 @@ Sub Start()
     ActiveDocument.Unit = cdrMillimeter
     
     Dim Text As String
-    Text = VBA.InputBox("¬ведите номер", APP_NAME)
+    Text = VBA.InputBox("Enter number", APP_NAME)
     If Text = vbNullString Then Exit Sub
     
     BoostStart APP_NAME, RELEASE
